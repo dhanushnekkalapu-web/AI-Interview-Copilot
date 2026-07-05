@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(145deg, #1e1e2f, #2a2a40);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.container {
+    width: 650px;
+    background: #2d2d44;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+button {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+textarea {
+    width: 100%;
+    background: #1e1e32;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+}
+#answerOutput {
+    background: #1e1e32;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 12px;
+    white-space: pre-wrap;
+}
